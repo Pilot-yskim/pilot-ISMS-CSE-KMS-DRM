@@ -1,17 +1,17 @@
 {
-  "name": "kacls-poc",
+  "name": "cse-poc-kacls",
   "version": "1.0.0",
-  "description": "Google Workspace CSE POC KACLS",
+  "description": "Google Workspace CSE KACLS for Cloud Run",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "body-parser": "^1.20.2",
-    "@google-cloud/kms": "^4.0.0"
+    "@google-cloud/kms": "^4.3.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.0.0"
   }
 }
